@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node (if any tooling uses it)
+node_modules/
+
+# Large / generated binary content (keep source, ignore heavy finals if needed)
+# Uncomment if final assets become too large for git:
+# assets/final/**/*.m2
+# assets/final/**/*.blp
+# assets/final/**/*.adt
+# client-patches/**/*.MPQ
+
+# Client and server installs (never commit these)
+client/
+server-data/
+wow-client/
+azerothcore-run/
+
+# Temporary
+tmp/
+temp/
+*.log
+MODLOG.md
+
+# Universal Modder local state if cloned inside the repo
+universal-modder/.cache/
